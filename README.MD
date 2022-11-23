@@ -18,7 +18,7 @@ The containers ansible, web and db are now running the background
 ⚠ In a second terminal, run this second snippet to access the ansible-enabled container (named as "ansible" within the network) 
 
 ```bash
-docker exec -it ansible-docker-playground_ansible_1 /bin/bash
+docker exec -it ansible-docker-playground-ansible-1 /bin/bash
 ```
 
 Then you can try to ssh into the others containers (such as web or db) with the following snippets
